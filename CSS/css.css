@@ -1,0 +1,41 @@
+*{
+	text-align: center;
+}
+body{
+	background: black;
+}
+h1{
+	font: bold 23px verdana;
+}
+h2{
+	font: bold 17px verdana;
+}
+#todo{
+	background: red;
+	border: solid 2px white;
+	border-radius: 50px;
+	width: 500px;
+	height: auto;
+	float: center;
+	margin: auto;
+	padding: 15px;
+}
+#menu{
+	background: #cccccc;
+	border-radius: 10px;
+	border: solid 2px black;
+	width: 300px;
+	height: auto;
+	margin: auto;
+}
+#opciones{
+	background: #cccccc;
+	margin: 30px;
+}
+#boton{
+	background: linear-gradient(red 5%,black 80%);
+	border: solid 2px black;
+	color: green;
+	padding: 15px;
+	border-radius: 15px;
+}

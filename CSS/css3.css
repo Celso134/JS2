@@ -1,0 +1,46 @@
+#regreso{
+	text-align: center;
+	width: auto;
+	background: linear-gradient(red 5%,black 80%);
+	border: solid 2px white;
+	border-radius: 15px;
+	color: green;
+	padding: 15px;
+	margin-top: 15px;
+}
+body{
+	background: black;
+}
+*{
+	text-align: center;
+}
+#princi{
+	background: #CCCCCC;
+	width: 600px;
+	height: auto;
+	margin: auto;
+	padding-bottom: 15px;
+	padding-top: 1px;
+}
+#tabla{
+	padding: 21px;
+	border-radius: 15px;
+}
+#num{
+	text-align: center;
+}
+#botonVali{
+	padding: 8px;
+}
+#validar{
+	text-align: center;
+	width: auto;
+	background: black;
+	border: solid 2px black;
+	border-radius: 15px;
+	color: white;
+	font: 15px bold;
+	padding: 8px;
+	padding-left: 20px;
+	padding-right: 20px;
+}

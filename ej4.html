@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Ejercicio 4</title>
+	<link rel="stylesheet" href="CSS/css4.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<noscript>
+		<META HTTP-EQUIV="REFRESH" CONTENT="1;URL=error.html">
+	</noscript>
+	<script DEFER src="JS/js4.js"></script>
+	<div id='princi'>
+		<header>
+			<h1> Bienvenido </h1>
+		</header>
+		<form method="post" name='formulario' id='form' onsubmit='return yeah()'>
+			<table id='tabla' align='center'>
+				<tr>
+					<td id='Tsalario'>Introduce el salario (mensual) del trabajador:</td>
+					<td><input type="text" name="Num" id='num1' maxlength='7' onkeypress="return numbers(event)">
+					</tr>
+					<tr>
+						<td>Especifique su antigüedad en la empresa:</td>
+						<td><select id='lista' name='listado'>
+							<option value='nothing' disabled selected> Antigüedad </option>
+							<option value='1'>Menos de un año</option>
+							<option value='2'>Entre uno y dos años</option>
+							<option value='3'>Entre 2 y 5 años</option>
+							<option value='4'>Entre 5 y 10 años</option>
+							<option value='5'>Más de 10 años</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td id='botonVali'><input type="submit" name="valida" id='validar' value='Validar'></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<input id='regreso' type="button" name="regreso" value='Regresar' onclick="location.href='index.html'">
+	</body>
+	</html>

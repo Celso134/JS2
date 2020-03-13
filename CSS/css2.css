@@ -1,0 +1,15 @@
+#regreso{
+	text-align: center;
+	width: auto;
+	background: linear-gradient(red 5%,black 80%);
+	border: solid 1px white;
+	border-radius: 15px;
+	color: green;
+	padding: 15px;
+}
+body{
+	background: black;
+}
+*{
+	text-align: center;
+}
